@@ -1,0 +1,50 @@
+.container{
+    position:relative;
+    background-color:grey;
+  }
+  .container:hover{
+    transition-duration:0.3s;
+  }
+  
+  .front-button{
+    
+    cursor:pointer;
+    color:green;
+    width:100px;
+    height:50px;
+    border-radius:10px;
+    background-color:white;
+   backface-visibility:hidden;
+   font-size:1.5rem;
+     font-family: 'Akaya Telivigala', cursive;
+    transition-duration:1s;
+    border-color:orange;
+    transform:rotatez(30deg);
+  
+  }
+  .front-button:hover{
+    background-color:green;
+    color:white;
+    transform:rotatez(360deg);
+  }
+  .back-button{
+   
+    cursor:pointer;
+    color:orange;
+    width:100px;
+    height:50px;
+    border-radius:10px;
+    background-color:white;
+   backface-visibility:hidden;
+   font-size:1.5rem;
+     font-family: 'Akaya Telivigala', cursive;
+    transition-duration:1s;
+    border-color:green;
+      transform:rotatez(-30deg);
+  
+  }
+  .back-button:hover{
+    background-color:orange;
+    color:white;
+    transform:rotatez(-360deg);
+  }
