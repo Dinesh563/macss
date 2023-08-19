@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/png" sizes="16x16" rel="icon" href="./icons8-design-16.png">
+    <title>Art By Dinesh</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #9ca2ba;
+            background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
+        }
+
+        .container {
+            position: relative;
+            height: 320px;
+            width: 650px;
+            display: grid;
+            grid-template-columns: 1.2fr 1fr 1.2fr 0.2fr;
+            grid-template-rows: 0.5fr 0.8fr 1fr 0.3fr;
+            gap: 29px;
+            background-color: #000;
+            padding: 15px;
+            padding-left: 15px;
+            border-radius: 10px;
+        }
+
+        .container>* {
+            border-radius: 5px;
+        }
+
+        .red {
+            background-color: #E72F24;
+        }
+
+        .white {
+            background-color: #F0F1EC;
+        }
+
+        .blue {
+            background-color: #004592;
+        }
+
+        .black {
+            background-color: #232629;
+        }
+
+        .yellow {
+            background-color: #F9D01E;
+        }
+
+        .fourth {
+            margin-top: -5px;
+        }
+
+        .col-span-2 {
+            grid-column: span 2;
+        }
+
+        .col-span-3 {
+            grid-column: span 3;
+        }
+
+        .row-span-2 {
+            grid-row: span 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="white col-span-2 row-span-2"> </div>
+        <div class="white second"> </div>
+        <div class="yellow row-span-2"> </div>
+        <div class="white fourth"> </div>
+        <div class="red row-span-2"> </div>
+        <div class="white"> </div>
+        <div class="blue col-span-2"> </div>
+        <div class="yellow col-span-3"> </div>
+    </div>
+</body>
+
+</html>
